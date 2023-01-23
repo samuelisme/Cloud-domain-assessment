@@ -1,5 +1,9 @@
 # Cloud-domain-assessment
 
-terraform init
-terraform plan  -no-color -var-file=aws.tfvars > tfplan.txt
-terraform apply -var-file=aws.tfvars -auto-approve
+Build a Apache using Terraform with Elastic IP
+
+Only allow HTTPS connections
+
+Enable versioning on S3
+
+Enable encryption on EBS and S3
